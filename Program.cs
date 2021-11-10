@@ -6,7 +6,8 @@ namespace GetDemo2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            employee emp=new employee{Id=100,name="giri",salary=95000};
+            Console.WriteLine(emp);
         }
     }
 }
